@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/02style.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="imgBox" id="imgBox" style="left: 0;">
+        <img src="images/pic5.jpg" alt=""/>
+        <img src="images/pic6.jpg" alt=""/>
+        <img src="images/pic7.jpg" alt=""/>
+        <img src="images/pic8.jpg" alt=""/>
+    </div>
+    <ul class="circle" id="circle">
+        <li class="active" onclick="change(0)"></li>
+        <li onclick="change(1)"></li>
+        <li onclick="change(2)"></li>
+        <li onclick="change(3)"></li>
+    </ul>
+    <a href="#" id="prev">&lt;</a>
+    <a href="#" id="next">&gt;</a>
+</div>
+
+<script src="js/02js.js"></script>
+</body>
+</html>

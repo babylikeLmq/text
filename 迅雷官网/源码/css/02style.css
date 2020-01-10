@@ -1,0 +1,52 @@
+.container{
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.imgBox{
+    width: 4904px ;
+    height: 460px;
+    position: absolute;
+}
+.imgBox>img{
+    float: left;
+}
+.circle>li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    float: left;
+    margin: 0 10px;
+}
+.circle{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.active{
+    background-color: #333333;
+}
+
+/*箭头的样式*/
+#prev,#next{
+    width: 41px;
+    height: 69px;
+    display: block;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 50%;
+    margin-top: -34.5px;
+    line-height: 69px;
+    color: #fff;
+    font-size: 48px;
+}
+#prev{
+    left: 0;
+}
+#next{
+    right: 0;
+}
